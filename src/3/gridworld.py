@@ -154,7 +154,7 @@ class GridWorld:
 
         #Based on the current action and the probability derived
         #from the trasition model it chooses a new actio to perform
-        action = np.random.choice(4, 1, p=self.transition_matrix[int(action),:])
+        #action = np.random.choice(4, 1, p=self.transition_matrix[int(action),:])
         #action = self.transition_model(action)
 
         #Generating a new position based on the current position and action
